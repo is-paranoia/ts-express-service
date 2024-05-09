@@ -1,0 +1,16 @@
+ports:
+    http: 8080
+    debug: 5858
+
+auth:
+    jwt_secret: 'secret'
+
+spec:
+    #apex: 'http://my_url/v2/swagger.json'
+
+mongo:
+    url: 'mongodb://mongo:27017'
+    dbname: 'plants'
+
+# none/debug/info
+loglevel: info
